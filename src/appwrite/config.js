@@ -66,6 +66,7 @@ export class Service {
             )
         } catch (error) {
             console.log("Appwrite service:: getPost::error", error);
+            return false
         }
     }
 
