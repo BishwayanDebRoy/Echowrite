@@ -1,5 +1,5 @@
 import config from "../config/config";
-import { Client, Account, ID, Databases, Storage, Query } from "appwrite";
+import { Client, ID, Databases, Storage, Query } from "appwrite";
 
 export class Service {
     client = new Client();
@@ -15,14 +15,14 @@ export class Service {
 
     }
 
-    async createPost({ title, slug, content, featuredImage, status, userID }) {
+    async createPost({ title, slug, content, featuredImage, status, userId }) {
         try {
             return await this.databases.createDocument(config.appwriteDatabaseId, config.appwriteCollectionId, slug, {
                 title,
                 content,
                 featuredImage,
                 status,
-                userID
+                userId,
             })
         } catch (error) {
             console.log("Appwrite service:: createPost::error", error);
@@ -66,7 +66,7 @@ export class Service {
             )
         } catch (error) {
             console.log("Appwrite service:: getPost::error", error);
-            return false
+            return false;
         }
     }
 
