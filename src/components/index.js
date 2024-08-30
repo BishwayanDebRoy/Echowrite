@@ -4,7 +4,7 @@ import Container from './container/Container';
 import Logo from './Logo.jsx';
 import LogoutBtn from './header/LogoutBtn';
 import RTE from './RTE.jsx';
-import Signup from './SignUp.jsx';
+import Signup from './Signup.jsx';
 import Login from './Login.jsx';
 import PostForm from './post-form/PostForm.jsx';
 import PostCard from './PostCard.jsx';
