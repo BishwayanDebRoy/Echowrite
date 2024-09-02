@@ -72,3 +72,118 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+
+
+
+
+
+
+
+
+
+/* Body Background */
+body {
+  background: linear-gradient(to bottom right, #936bff, #feef7b);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Glassmorphism Cards */
+.card {
+  background:rgb(220, 218, 206);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(38, 25, 177, 0.37);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 16px 48px rgba(26, 79, 212, 0.664);
+}
+
+/* Dynamic Button */
+.button {
+  background: linear-gradient(135deg, #f8ff6b, #ddff47);
+  border: none;
+  border-radius: 50px;
+  color: blue;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #ffe047, #faff6b);
+  box-shadow: 0 4px 15px rgba(75, 111, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(31, 38, 135, 0.75);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffe66d;
+  text-shadow: 0 0 5px rgba(255, 230, 109, 0.75);
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  background: -webkit-linear-gradient(45deg, #161616, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: rgba(31, 38, 135, 0.9);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #ffe66d;
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+.footer a:hover {
+  color:#ddff47;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+}
+
+/* Parallax Image */
+.parallax {
+  background-image: url("herobg.png");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
