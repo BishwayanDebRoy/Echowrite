@@ -4,7 +4,7 @@ Welcome to **Echowrite**, a custom-built blogging platform where I document my j
 
 Explore **Echowrite** to see how I blend **user-centric design** with **robust technology** to create impactful solutions.
 
-![Echowrite Screenshot](./assets/echowritephoto.png)
+![Echowrite Screenshot](./src/assets/echowritephoto.png)
 
 
 ---
@@ -133,3 +133,4 @@ I’m always open to feedback, collaboration, and new opportunities. Feel free t
 - **LinkedIn**: [Bishwayan Deb Roy](https://www.linkedin.com/in/bishwayandebroy11)
 
 ---
+Made with ❤️ by [Bishwayan Deb Roy](https://github.com/BishwayanDebRoy)
