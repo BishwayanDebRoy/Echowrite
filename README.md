@@ -120,7 +120,7 @@ I believe in collaboration and continuous improvement. If you have ideas to make
 
 
 ## 📝 License
-This project is licensed under the MIT License. For more information, please refer to the [LICENSE](LICENSE.txt) file.
+This project is licensed under the MIT License. For more information, please refer to the [LICENSE](LICENSE) file.
 
 ---
 
